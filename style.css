@@ -1,0 +1,69 @@
+/*
+ Theme Name:   Twenty Fifteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     _tk-master
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+#main-menu {
+	float: right;
+}
+.jumbotron{
+	background-color:inherit;
+}
+#navbar-collapse{
+	background-color: #0097A7;
+	border-color: transparent;
+	border-color: #0097A7; 
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	color: white;
+    background-color: gray;
+    float: right; 
+    
+}
+body{
+	text-align:center;
+	background-image: url("http://www.ohphoto.com.au/gallery/original/Grey-gradient_3.jpg");
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.jumbotron {
+    border: solid;
+    padding-top: 20%;
+      padding-bottom: 20%;
+ 
+}
+
+button, input, select, textarea{
+	color: black;
+}
+.panel-body {
+    padding: 10px;
+    color: black;
+    float: right; 
+}
+.navbar-default .navbar-brand{
+	color: white;
+	float: right; 
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    float: right;
+    float: right; 
+}
+
+.nav>li>a {
+	float: right; 
+}
+.navbar-nav>li>.dropdown-menu {
+    background-color: #0097A7;
+}
