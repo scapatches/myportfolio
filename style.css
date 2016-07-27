@@ -11,6 +11,8 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
 */
+@import 'https://fonts.googleapis.com/css?family=Josefin+Sans|Playfair+Display';
+
 #main-menu {
 	float: right;
 }
@@ -20,20 +22,19 @@
 #navbar-collapse{
 	background-color: #0097A7;
 	border-color: transparent;
-	border-color: #0097A7; 
+	border-color: #0097A7;  
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-	color: white;
+	color: #FFFFFF;
     background-color: gray;
     float: right; 
     
 }
 body{
 	text-align:center;
-	background-image: url("http://www.ohphoto.com.au/gallery/original/Grey-gradient_3.jpg");
-	background-repeat: no-repeat;
-	color: white;
+	background-color: #FFF;
+	color: #212121;
 }
 
 .jumbotron {
@@ -52,11 +53,11 @@ button, input, select, textarea{
     float: right; 
 }
 .navbar-default .navbar-brand{
-	color: white;
+	color: #FFFFFF;
 	float: right; 
 }
 .navbar-default .navbar-nav>li>a {
-    color: white;
+    color: #FFFFFF;
     float: right;
     float: right; 
 }
@@ -67,3 +68,17 @@ button, input, select, textarea{
 .navbar-nav>li>.dropdown-menu {
     background-color: #0097A7;
 }
+.navbar-default .navbar-brand {
+    color: transparent;
+    
+}
+
+.site-header-inner.col-sm-12{
+	background-color:#03A9F4;
+}
+div.jumbotron{
+height:10px;
+padding-top: 20px;
+
+ 
+/*#content */
