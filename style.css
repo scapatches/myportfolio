@@ -11,74 +11,145 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
 */
-@import 'https://fonts.googleapis.com/css?family=Josefin+Sans|Playfair+Display';
 
-#main-menu {
-	float: right;
-}
-.jumbotron{
-	background-color:inherit;
-}
-#navbar-collapse{
-	background-color: #0097A7;
-	border-color: transparent;
-	border-color: #0097A7;  
-}
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-	color: #FFFFFF;
-    background-color: gray;
-    float: right; 
+
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,700|Old+Standard+TT);
+
+.wpcf7-submit{
+    color: #F5F5F5;
+    background-color: #E040FB;
+}
+/*body{
+        background-color: #9E9E9E;
+        padding-top: 70px;
+        
+}*/
+.collapse{
+    /*background-color:#bbfc82;*/
+    background: url(images/logo-menu-overlay-background.png);
+}
+.site-description{
+    text-align: center;
+    border-color:none;
+    background-color: #9E9E9E;
+}
+.navbar-default{
+    background-color:#1976D2 ;
+    /*color:white;
+    */border-color: #1976D2;
+}
+a:hover {
+    background-color: none;
+ }
+ .site-header{
+    color:orange;
+ }
+.page-title{
+    color: #212121;
+    font-size: 90px;
+}
+/* header text*/
+body {
+    background-color: #ffffff;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
     
 }
-body{
-	text-align:center;
-	background-color: #FFF;
-	color: #212121;
+.a{
+    color: #1976D2;
 }
-
-.jumbotron {
-    border: solid;
-    padding-top: 20%;
-      padding-bottom: 20%;
- 
+.navbar-default .navbar-nav>li>a:hover {
+    color: #c3b0c3;
+    background-color: transparent;
 }
-
-button, input, select, textarea{
-	color: black;
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background:none;
 }
-.panel-body {
-    padding: 10px;
-    color: black;
-    float: right; 
+.collapse {
+        background: url(images/logo-menu-overlay-background.png) ;
 }
-.navbar-default .navbar-brand{
-	color: #FFFFFF;
-	float: right; 
+a {
+    color:#212121;
+    text-decoration: none;
 }
-.navbar-default .navbar-nav>li>a {
-    color: #FFFFFF;
-    float: right;
-    float: right; 
-}
-
-.nav>li>a {
-	float: right; 
-}
-.navbar-nav>li>.dropdown-menu {
-    background-color: #0097A7;
-}
-.navbar-default .navbar-brand {
-    color: transparent;
+/* body text*/
+body {
+   font-family: 'Old Standard TT', serif;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color:#727272;
     
+    /*background-color: #fad1f0;*/
 }
-
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color:white;
+}
+#main-menu{
+    float:right;
+    font-size: 20px;
+    color: white;
+}
 .site-header-inner.col-sm-12{
-	background-color:#03A9F4;
+    background-color:#673AB7;
+    padding:5%;
 }
 div.jumbotron{
 height:10px;
 padding-top: 20px;
+}
 
+#content{
+    padding:0px;
+}
+div#navbar-collapse.collapse.navbar-collapse{
+    padding:0px;
+}
  
-/*#content */
+ 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #212121;
+    background: none;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+button, input, select, textarea {
+    
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #E040FB;
+    background-color: transparent;
+}
+/*.site-title a {
+    color: #FFFFFF;
+}*/
+.site-header-inner.col-sm-12 {
+    background-color: #2196F3;
+    padding:5%;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+h1.page-title{
+    text-align: center;r
+}
+
+.site-header-inner.col-sm-12 {
+    background-color: #2196F3;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    padding-bottom: 10px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: transparent;
+}
